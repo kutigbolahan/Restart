@@ -55,9 +55,11 @@
 		002FCA382793F85000F47D75 /* Restart */ = {
 			isa = PBXGroup;
 			children = (
+				002FCA4E2793FF6D00F47D75 /* Utilities */,
+				002FCA4D2793FF5C00F47D75 /* Views */,
 				002FCA4B2793FAC100F47D75 /* Sounds */,
 				002FCA392793F85000F47D75 /* RestartApp.swift */,
-				002FCA3B2793F85000F47D75 /* ContentView.swift */,
+				002FCA4C2793FDCA00F47D75 /* Screens */,
 				002FCA3D2793F85300F47D75 /* Assets.xcassets */,
 				002FCA3F2793F85300F47D75 /* Preview Content */,
 			);
@@ -79,6 +81,28 @@
 				002FCA482793FA8900F47D75 /* chimeup.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		002FCA4C2793FDCA00F47D75 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				002FCA3B2793F85000F47D75 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		002FCA4D2793FF5C00F47D75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		002FCA4E2793FF6D00F47D75 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
